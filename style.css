@@ -1,0 +1,32 @@
+.conteiner-1, .conteiner-2, .conteiner-3{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.flex-box-conteiner-1, .flex-box-conteiner-2, .flex-box-rps {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.flex-box-conteiner-1 div{
+    padding: 10px;
+    border: 1px solid black;
+    border: 1px solid black;
+    align-items: center;
+
+}
+
+.flex-box-conteiner-2 img{
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+
+}
+ 
+.flex-box-rps img:hover {
+    box-shadow: 0px, 10px, 50px rgba(37, 50, 233, 1);
+}
